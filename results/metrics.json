@@ -1,0 +1,8 @@
+{
+  "demo_type": "real-time webcam controller (no offline ML metrics)",
+  "logic_tests": "13/13 passing",
+  "hand_detection_check": "MediaPipe HandLandmarker detects and parses hands on a real test image",
+  "pipeline_check": "headless selftest runs capture-free through track + control + HUD",
+  "gpu_required": false,
+  "runtime": "real-time on CPU"
+}
